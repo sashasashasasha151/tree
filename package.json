@@ -30,7 +30,7 @@
     "url": "http://github.com/react-component/tree/issues"
   },
   "license": "MIT",
-  "main": "./lib/index",
+  "main": "./es/index",
   "module": "./es/index",
   "scripts": {
     "start": "dumi dev",
@@ -59,9 +59,6 @@
     "@types/warning": "^3.0.0",
     "@umijs/fabric": "^2.4.8",
     "dumi": "^1.1.4",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.0.0",
     "eslint": "^7.0.0",
     "father": "^2.29.8",
     "glob": "^7.1.6",
