@@ -579,10 +579,10 @@ class Tree<TreeDataType extends DataNode | BasicDataNode = DataNode> extends Rea
     }
 
     // Skip if drag node is self
-    if (dragNode.props.eventKey === dropTargetKey && dropLevelOffset === 0) {
-      this.resetDragState();
-      return;
-    }
+    // if (dragNode.props.eventKey === dropTargetKey && dropLevelOffset === 0) {
+    //   this.resetDragState();
+    //   return;
+    // }
 
     // Update drag over node and drag state
     this.setState({
